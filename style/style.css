@@ -104,6 +104,7 @@ body{
     background-repeat: no-repeat;
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: overlay;
+    border-radius: 16px;
 }
 .leftside-content{
     width: 50%;
@@ -156,5 +157,130 @@ body{
 .rightside-content img{
     width: 319.83px;
     height: 464.66px;
+}
+/* new-park-hotel decoration */
+.new-park-hotel-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    min-height: 600px;
+    margin-top: 20px;
+    /* border: 2px solid red;  */
+    display: flex;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 100px;
+}
+.new-park-hotel-content{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    margin-top: 100px;
+}
+.new-park-hotel-content p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 385px;
+    margin-top: 30px;
+}
+.new-park-hotel-content span{
+    color:rgb(255, 0, 0)
+}
+/* .join-btn-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    
+} */
+.join-btn{
+    /* border: 2px solid red; */
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    margin-left: 350px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+
+}
+/* holiday styles section starts here */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;  
+    border:2px solid red;
+    margin-top: 100px;
+    margin: 0 auto; 
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin:0 auto;
+}
+.holiday-text-container h5{
+    /* width: 263px;
+    height: 29px; */
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+
+}
+.holiday-text-container h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+#holiday{
+   color: rgb(255, 0, 0)
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    /* background-image: url('../images/Rectangle-2.png'); */
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    top:5%
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    z-index: 1;
 }
 
